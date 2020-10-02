@@ -2,7 +2,6 @@
 # @Time : 2020/10/2 17:12
 # @Author : LI Heng
 # @FileName: warm_up.py
-# @Email : liheng00666@163.com
 # @Software: PyCharm
 
 import numpy as np
@@ -25,7 +24,6 @@ for t in range(500):
 
     loss = np.square(y_pred-y).sum()
     print(t, loss)
-
 
     grad_y_pred = 2.0 * (y_pred - y)
     grad_w2 = h_relu.T.dot(grad_y_pred)

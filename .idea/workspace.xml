@@ -25,9 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="修改warm_up">
+    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="把tensor文件夹放到主目录下；修改warm_up">
+      <change beforePath="$PROJECT_DIR$/.idea/learnGit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnGit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnPytorch/examples/tensors/src/warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnPytorch/examples/tensors/src/warm_up.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnPytorch/tensors/src/warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnPytorch/src/tensors/warm_up.py" afterDir="false" />
     </list>
     <list id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +65,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\my\博士\3-课程-学习\learnGit\learnPytorch\src\tensors" />
+      <recent name="D:\my\博士\3-课程-学习\learnGit\learnPytorch\src" />
+      <recent name="D:\my\博士\3-课程-学习\learnGit\learnPytorch" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="warm_up" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -185,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601630447423</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="把tensor文件夹放到主目录下；修改warm_up">
+      <created>1601632938250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601632938250</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +243,8 @@
     <MESSAGE value="删除C2.1.py" />
     <MESSAGE value="创建learnPytorch目录结构" />
     <MESSAGE value="修改warm_up" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改warm_up" />
+    <MESSAGE value="把tensor文件夹放到主目录下；修改warm_up" />
+    <option name="LAST_COMMIT_MESSAGE" value="把tensor文件夹放到主目录下；修改warm_up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="680" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601446169271">
@@ -238,14 +255,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445730564" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1601633161307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601633161307" />
     <state x="806" y="433" key="VCS.ChangelistChooser" timestamp="1601445833243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="433" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445833243" />
-    <state x="453" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601630448792">
+    <state x="453" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601632939554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601630448792" />
+    <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601632939554" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601628745217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -254,6 +275,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="307" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629077289" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601632900774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601632900774" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learnGit$warm_up.coverage" NAME="warm_up Coverage Results" MODIFIED="1601632548405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/examples/tensors/src" />
