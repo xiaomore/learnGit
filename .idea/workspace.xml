@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/HengLI-pycharm" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="删除C2.1.py">
+      <change beforePath="$PROJECT_DIR$/master/master.txt" beforeDir="false" afterPath="$PROJECT_DIR$/master/master.txt" afterDir="false" />
+    </list>
+    <list id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HengLI-pycharm" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1iDbs5z8d4AgG31yHbaXu2N4WjO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="" />
+      <changelist id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
+      <created>1601445312946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601445312946</updated>
+      <workItem from="1601445322523" duration="3294000" />
+      <workItem from="1601628155995" duration="1052000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit test">
+      <created>1601445592461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601445592461</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新建OCR纠错目录">
+      <created>1601445774723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601445774723</updated>
+    </task>
+    <task id="LOCAL-00003" summary="撤回提交的OCR纠错目录">
+      <created>1601445914256</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601445914256</updated>
+    </task>
+    <task id="LOCAL-00004" summary="新建分支提交test">
+      <created>1601446254981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601446254981</updated>
+    </task>
+    <task id="LOCAL-00005" summary="删除OCR纠错目录文件夹">
+      <created>1601447838411</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601447838411</updated>
+    </task>
+    <task id="LOCAL-00006" summary="删除OCR纠错文件夹">
+      <created>1601447911241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601447911241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="创建学习Python的文件目录">
+      <created>1601448156368</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601448156368</updated>
+    </task>
+    <task id="LOCAL-00008" summary="创建learnPytorch目录">
+      <created>1601628640706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601628640706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="删除C2.1.py">
+      <created>1601628936806</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601628936806</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/HengLI-pycharm" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit test" />
+    <MESSAGE value="新建OCR纠错目录" />
+    <MESSAGE value="撤回提交的OCR纠错目录" />
+    <MESSAGE value="新建分支提交test" />
+    <MESSAGE value="删除OCR纠错目录文件夹" />
+    <MESSAGE value="删除OCR纠错文件夹" />
+    <MESSAGE value="创建学习Python的文件目录" />
+    <MESSAGE value="创建learnPytorch目录" />
+    <MESSAGE value="删除C2.1.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除C2.1.py" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="680" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601446169271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="680" y="320" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601446169271" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601445730564">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445730564" />
+    <state x="806" y="433" key="VCS.ChangelistChooser" timestamp="1601445833243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="433" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445833243" />
+    <state x="453" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601628938744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601628938744" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601628745217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601628745217" />
+    <state x="670" y="307" key="git4idea.merge.GitPullDialog" timestamp="1601629077289">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="307" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629077289" />
+  </component>
+</project>
