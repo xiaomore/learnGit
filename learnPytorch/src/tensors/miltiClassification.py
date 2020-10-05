@@ -40,7 +40,7 @@ test_loader = DataLoader(dataset=test_dataset,
                          batch_size=batch_size)
 
 # Step2: design model
-class Net(torch.nn.Mudule):
+class Net(torch.nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         self.l1 = torch.nn.Linear(784, 512)
