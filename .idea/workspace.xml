@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="删除master和test文件夹及其下文件" />
+    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="修改仓库名称">
+      <change beforePath="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" afterDir="false" />
+    </list>
     <list id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -526,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601970615126</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="修改仓库名称">
+      <created>1601970848789</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601970848789</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +590,8 @@
     <MESSAGE value="多分类训练--使用Mnist数据集：添加注释" />
     <MESSAGE value="padding填充-注释" />
     <MESSAGE value="删除master和test文件夹及其下文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除master和test文件夹及其下文件" />
+    <MESSAGE value="修改仓库名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改仓库名称" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2762" y="382" key="#Notifications" timestamp="1601965947766">
@@ -629,15 +639,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="433" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445833243" />
-    <state x="2373" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601970615993">
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601970850344">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601792706154" />
-    <state x="2373" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601970615993" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601718289797">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601970850344" />
+    <state x="2673" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601970933668">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601718289797" />
+    <state x="2673" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601970933668" />
     <state x="670" y="307" key="git4idea.merge.GitPullDialog" timestamp="1601629077289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -27,5 +27,4 @@ kernel = torch.Tensor([1, 2, 3, 4, 5, 6, 7, 8, 9]).view(1, 1, 3, 3)
 conv_layer.weight.data = kernel.data
 
 output = conv_layer(input)
-
 print(output)
