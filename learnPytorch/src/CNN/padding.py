@@ -23,7 +23,7 @@ conv_layer = torch.nn.Conv2d(1, 1, kernel_size=3, padding=1, bias=False)
 kernel = torch.Tensor([1, 2, 3, 4, 5, 6, 7, 8, 9]).view(1, 1, 3, 3)
 
 # 把kernel的数据赋给卷积层的权重
-# 这里的意思就是：Filter矩阵其实就是权重，输入矩阵中每一个块与Filter矩阵相乘，得到输出矩阵中的一个元素的值。
+# 这里的意思就是：Filter矩阵其实就是权重矩阵，输入矩阵中每一个块与Filter矩阵点乘，得到输出矩阵中的一个元素的值。
 conv_layer.weight.data = kernel.data
 
 output = conv_layer(input)

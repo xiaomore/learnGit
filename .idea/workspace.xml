@@ -25,7 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="修改仓库名称">
+    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="修改padding中代码格式">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" afterDir="false" />
     </list>
     <list id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
@@ -535,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601970848789</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="修改padding中代码格式">
+      <created>1601971010048</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601971010048</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +574,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="commit test" />
     <MESSAGE value="新建OCR纠错目录" />
     <MESSAGE value="撤回提交的OCR纠错目录" />
     <MESSAGE value="新建分支提交test" />
@@ -591,7 +598,8 @@
     <MESSAGE value="padding填充-注释" />
     <MESSAGE value="删除master和test文件夹及其下文件" />
     <MESSAGE value="修改仓库名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改仓库名称" />
+    <MESSAGE value="修改padding中代码格式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改padding中代码格式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2762" y="382" key="#Notifications" timestamp="1601965947766">
@@ -639,11 +647,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="433" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445833243" />
-    <state x="2373" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601970850344">
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601971012275">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601792706154" />
-    <state x="2373" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601970850344" />
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601971012275" />
     <state x="2673" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601970933668">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
