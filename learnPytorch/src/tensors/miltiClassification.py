@@ -17,18 +17,18 @@ import torch.optim as optim
 batch_size = 64
 
 transform = transforms.Compose([
-    transforms.ToTensor(),
-    transforms.Normalize((0.1307, ), (0.3081, ))
+    transforms.ToTensor(),  # 转为张量
+    transforms.Normalize((0.1307, ), (0.3081, ))  # Mnist数据集的均值和方差
 ])
 
-train_dataset = datasets.MNIST(root='../../../dataset',
-                               train=True,
-                               download=True,
-                               transform=transform)
+train_dataset = datasets.MNIST(root='../../../dataset',  # 数据集存放的目录
+                               train=True,               # 是否为训练集
+                               download=True,            # 是否下载
+                               transform=transform)      # 标准化
 
-train_loader = DataLoader(dataset=train_dataset,
-                          shuffle=True,
-                          batch_size=batch_size)
+train_loader = DataLoader(dataset=train_dataset,         # 数据加载器；指明加载的数据集
+                          shuffle=True,                  # 是否打乱数据集
+                          batch_size=batch_size)         # 每一次处理的数据集大小
 
 test_dataset = datasets.MNIST(root='../../../dataset',
                               train=False,
@@ -43,26 +43,27 @@ test_loader = DataLoader(dataset=test_dataset,
 class Net(torch.nn.Module):
     def __init__(self):
         super(Net, self).__init__()
-        self.l1 = torch.nn.Linear(784, 512)
+        self.l1 = torch.nn.Linear(784, 512)  # 784 = 1 * 28 * 28，
         self.l2 = torch.nn.Linear(512, 256)
         self.l3 = torch.nn.Linear(256, 128)
         self.l4 = torch.nn.Linear(128, 64)
-        self.l5 = torch.nn.Linear(64, 10)
+        self.l5 = torch.nn.Linear(64, 10)    # 10表示输出10维，代表最终分类的数目
 
     def forward(self, x):
-        x = x.view(-1, 784)
+        x = x.view(-1, 784)      # 相当于reshape，
         x = F.relu(self.l1(x))
         x = F.relu(self.l2(x))
         x = F.relu(self.l3(x))
         x = F.relu(self.l4(x))
-        return self.l5(x)
+        return self.l5(x)        # 损失函数使用CrossEntropyLoss()，内部已经进行log和softmax运算，所以最后一层不用激活函数
+                                 # 若损失函数使用NLLLoss()，随后一层也要使用激活函数
 
 
 model = Net()
 
 # Step3: construct loss and optimizer
-criterion = torch.nn.CrossEntropyLoss()
-optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)
+criterion = torch.nn.CrossEntropyLoss()  # 损失
+optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)  # 优化器
 
 # Step4: train and test
 def train(epoch):
