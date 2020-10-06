@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="把tensor文件夹放到src目录下；修改头部模板；删除warm_up的部分换行">
+    <list default="true" id="16abf1fb-0d16-453c-86f7-2ba14021fa89" name="Default Changelist" comment="多分类训练--使用Mnist数据集：添加注释">
+      <change afterPath="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/learnGit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnGit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnPytorch/src/tensors/warm_up.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnPytorch/src/tensors/warm_up.py" afterDir="false" />
     </list>
     <list id="33361bb7-ef06-48d5-a491-21623ab6fbab" name="新建OCR纠错目录" comment="撤回提交的OCR纠错目录" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -73,8 +75,8 @@
       <recent name="D:\my\博士\3-课程-学习\learnGit\learnPytorch" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="warm_up" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.padding">
+    <configuration name="loadDataset" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="learnGit" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/examples/tensors/src" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/src/tensors" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPytorch/examples/tensors/src/warm_up.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPytorch/src/tensors/loadDataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,9 +98,96 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="logisticRegression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learnGit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/src/tensors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPytorch/src/tensors/logisticRegression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learnGit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/src/tensors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPytorch/src/tensors/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="padding" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="learnGit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/src/CNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnPytorch/src/CNN/padding.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in miltiClassification.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="learnGit" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnPytorch/src/tensors" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/learnPytorch/src/tensors/miltiClassification.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.warm_up" />
+        <item itemvalue="Python.padding" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.pytest in miltiClassification.py" />
+        <item itemvalue="Python.logisticRegression" />
+        <item itemvalue="Python.loadDataset" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +303,77 @@
       <option name="project" value="LOCAL" />
       <updated>1601633338436</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="给warm_up增加注释">
+      <created>1601704525852</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601704525852</updated>
+    </task>
+    <task id="LOCAL-00016" summary="反向传播过程，手动计算梯度、更新参数">
+      <created>1601718401463</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1601718401463</updated>
+    </task>
+    <task id="LOCAL-00017" summary="修改注释">
+      <created>1601718428347</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1601718428347</updated>
+    </task>
+    <task id="LOCAL-00018" summary="使用pytorch进行准备数据，训练，优化，更新参数">
+      <created>1601718483994</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1601718483994</updated>
+    </task>
+    <task id="LOCAL-00019" summary="又重新敲了一遍代码，hhh">
+      <created>1601792704852</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601792704852</updated>
+    </task>
+    <task id="LOCAL-00020" summary="逻辑回归">
+      <created>1601880338048</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601880338049</updated>
+    </task>
+    <task id="LOCAL-00021" summary="加载数据集">
+      <created>1601880450714</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1601880450714</updated>
+    </task>
+    <task id="LOCAL-00022" summary="多分类训练--使用Mnist数据集">
+      <created>1601890060952</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1601890060952</updated>
+    </task>
+    <task id="LOCAL-00023" summary="多分类训练--使用Mnist数据集">
+      <created>1601891370932</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1601891370932</updated>
+    </task>
+    <task id="LOCAL-00024" summary="多分类训练--使用Mnist数据集：添加注释">
+      <created>1601965908917</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1601965908917</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,9 +417,22 @@
     <MESSAGE value="修改warm_up" />
     <MESSAGE value="把tensor文件夹放到主目录下；修改warm_up" />
     <MESSAGE value="把tensor文件夹放到src目录下；修改头部模板；删除warm_up的部分换行" />
-    <option name="LAST_COMMIT_MESSAGE" value="把tensor文件夹放到src目录下；修改头部模板；删除warm_up的部分换行" />
+    <MESSAGE value="给warm_up增加注释" />
+    <MESSAGE value="反向传播过程，手动计算梯度、更新参数" />
+    <MESSAGE value="修改注释" />
+    <MESSAGE value="使用pytorch进行准备数据，训练，优化，更新参数" />
+    <MESSAGE value="又重新敲了一遍代码，hhh" />
+    <MESSAGE value="逻辑回归" />
+    <MESSAGE value="加载数据集" />
+    <MESSAGE value="多分类训练--使用Mnist数据集" />
+    <MESSAGE value="多分类训练--使用Mnist数据集：添加注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="多分类训练--使用Mnist数据集：添加注释" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2762" y="382" key="#Notifications" timestamp="1601965947766">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2762" y="382" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601965947766" />
     <state x="680" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601446169271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -269,32 +441,66 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445730564" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1601633161307">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601709717002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601633161307" />
+    <state x="740" y="274" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601709717002" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1601969612886">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601795524908" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601969612886" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1601969612886">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601795524908" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601969612886" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1601969612886">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601795524908" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601969612886" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1601969612886">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="310" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601795524908" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601969612886" />
+    <state x="2381" y="164" key="SettingsEditor" timestamp="1601965989760">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601709739782" />
+    <state x="2381" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601965989760" />
     <state x="806" y="433" key="VCS.ChangelistChooser" timestamp="1601445833243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="806" y="433" key="VCS.ChangelistChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601445833243" />
-    <state x="453" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601633368235">
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2" timestamp="1601966781727">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601792706154" />
+    <state x="2373" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601966781727" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601718289797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="453" y="156" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601633368235" />
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601628745217">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601628745217" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601718289797" />
     <state x="670" y="307" key="git4idea.merge.GitPullDialog" timestamp="1601629077289">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="670" y="307" key="git4idea.merge.GitPullDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601629077289" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601634511884">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601806846369">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601634511884" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601794644856" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1601806846369" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/learnGit$warm_up.coverage" NAME="warm_up Coverage Results" MODIFIED="1601632548405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/examples/tensors/src" />
+    <SUITE FILE_PATH="coverage/learnGit$linearRegression.coverage" NAME="linearRegression Coverage Results" MODIFIED="1601789234053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$main.coverage" NAME="main Coverage Results" MODIFIED="1601891178508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$pytest_in_miltiClassification_py.coverage" NAME="pytest in miltiClassification.py Coverage Results" MODIFIED="1601889668015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$logisticRegression.coverage" NAME="logisticRegression Coverage Results" MODIFIED="1601889539710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$backPro.coverage" NAME="backPro Coverage Results" MODIFIED="1601711829865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$loadDataset.coverage" NAME="loadDataset Coverage Results" MODIFIED="1601806778407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/tensors" />
+    <SUITE FILE_PATH="coverage/learnGit$padding.coverage" NAME="padding Coverage Results" MODIFIED="1601969612881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnPytorch/src/CNN" />
   </component>
 </project>
