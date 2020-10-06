@@ -65,6 +65,7 @@ model = Net()
 criterion = torch.nn.CrossEntropyLoss()  # 损失
 optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.5)  # 优化器
 
+
 # Step4: train and test
 def train(epoch):
     running_loss = 0.0
