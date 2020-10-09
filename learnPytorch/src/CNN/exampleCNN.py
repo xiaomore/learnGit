@@ -47,7 +47,7 @@ class Net(torch.nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         # Conv2d(1, 10, kernel_size=5)：1表示输入的channel数量，10表示输出的channel数量；
-        self.conv1 = torch.nn.Conv2d(1, 10, kernel_size=5)    # Conv2d:2维卷积，主要应用于图像处理，视觉；Conv1d:1维卷积用于序列模型，NLP；Conv3d:3维卷积主要用于医疗领域及视频处理
+        self.conv1 = torch.nn.Conv2d(1, 10, kernel_size=5)    # Conv2d:2维卷积，主要应用于图像处理，视觉; Conv1d:1维卷积用于序列模型，NLP; Conv3d:3维卷积主要用于医疗领域及视频处理
         self.conv2 = torch.nn.Conv2d(10, 20, kernel_size=5)   # kernel_size指的是于输入矩阵做点积的Filter矩阵的维度
         self.pooling = torch.nn.MaxPool2d(kernel_size=2)      # pooling操作
         self.fc = torch.nn.Linear(320, 10)                    # fully connected 由320 -> 10
@@ -109,7 +109,6 @@ def test_cnn():
             correct += (predicted == target).sum().item()
 
         print("Accuracy on test set: %d %% [%d/%d]" % (100 * correct / total, correct, total))
-
 
 
 if __name__ == '__main__':
