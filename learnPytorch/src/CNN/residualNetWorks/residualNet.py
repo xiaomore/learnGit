@@ -25,7 +25,7 @@ transform = transforms.Compose([
     transforms.Normalize((0.1307, ), (0.3081, ))
 ])
 
-train_dataset = datasets.MNIST(root='../../../dataset',
+train_dataset = datasets.MNIST(root='../../../../dataset',
                                train=True,
                                transform=transform,
                                download=True)
@@ -35,7 +35,7 @@ train_loader = DataLoader(dataset=train_dataset,
                           shuffle=True,
                           num_workers=0)
 
-test_dataset = datasets.MNIST(root='../../../dataset',
+test_dataset = datasets.MNIST(root='../../../../dataset',
                               train=False,
                               transform=transform,
                               download=True)
@@ -58,7 +58,7 @@ class ResidualBlock(nn.Module):
     def forward(self, x):
         y = F.relu(self.conv1(x))  # 卷积，激活
         y = self.conv2(y)          # 再做卷积
-        x = F.relu(x+y)            # F(x)+x做激活
+        x = F.relu((x+y)*0.5)            # F(x)+x做激活
         return x
 
 
